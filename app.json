@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Void Ultra: Private Journal",
+    "slug": "VoidUltra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon4.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon4.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon4.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.faiziop05.VoidUltra",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/icon2_favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-video"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "73f20025-08f8-4637-9daf-2723d76d5a7c"
+      }
+    }
+  }
+}
